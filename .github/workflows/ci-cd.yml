@@ -475,7 +475,7 @@ jobs:
     - name: Run tests
       run: python -m pytest
     - name: Run dev_mode tests
-      run: python -X dev -m pytest -m dev_mode
+      run: python -m pytest -m dev_mode
 
 
   test-summary:
