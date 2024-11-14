@@ -41,7 +41,7 @@ jobs:
     - name: Checkout aiohttp
       uses: actions/checkout@v4
       with:
-        repository: aiolibs/aiohttp
+        repository: aio-libs/aiohttp
     - name: Checkout yarl
       uses: actions/checkout@v4
       with:
