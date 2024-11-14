@@ -443,6 +443,7 @@ jobs:
   test-aiohttp:
     name: Test with aiohttp
     needs:
+    - test
     - build-pure-python-dists  # transitive, for accessing settings
     - build-wheels-for-tested-arches
     - pre-setup  # transitive, for accessing settings
